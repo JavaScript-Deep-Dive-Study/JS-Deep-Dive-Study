@@ -34,15 +34,15 @@ Math + '' // "[Object Math]"
 
 ```jsx
 1 - "1"; //0
-1 / "one" + // NaN
-  "" + // 0
-  "string" + //NaN
-  true + // 1
-  false + // 0
-  null + // 0
-  undefined + // Nan
-  Symbol() + // TypeError
-  []; // 0
+1 / "one" // NaN
++ "" // 0
++ "string" //NaN
++ true // 1
++ false // 0
++ null // 0
++ undefined// Nan
++ Symbol() // TypeError
++ []; // 0
 ```
 
 ### boolean 타입으로 변환
