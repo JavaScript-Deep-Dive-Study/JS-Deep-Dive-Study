@@ -73,12 +73,10 @@ if (null) return 0; //falsy
 
 ```jsx
 // String 생성자 함수를 new 연산자 없이 호출하는 방법
-String(1)(
-  // '1'
+String(1) // '1'
 
-  // Object.prototype.toString 메서드를 사용하는 방법
-  1
-).toString(); // '1'
+// Object.prototype.toString 메서드를 사용하는 방법
+(1).toString(); // '1'
 
 // 문자열 연결 연산자를 이용하는 방법
 1 + ""; // '1'
@@ -91,9 +89,10 @@ String(1)(
 Number("0"); // 0
 
 // parseInt, parseFloat 함수를 사용하는 방법(문자열만 변환 가능)
-parseInt("0") + // 0
-  // + 단항 산술 연산자를 이용하는 방법
-  "0"; // 0
+parseInt("0") // 0
+
+// + 단항 산술 연산자를 이용하는 방법
++ "0"; // 0
 
 // * 산술 연산자를 이용하는 방법
 "0" * 1; // 0
@@ -102,7 +101,7 @@ parseInt("0") + // 0
 ### boolean 타입으로 변환
 
 ```jsx
-//Boolean 생성자 함수를 new 연산자 없이 호출하는 방법
+// Boolean 생성자 함수를 new 연산자 없이 호출하는 방법
 Boolean("x"); // true
 Boolean(""); // false
 
