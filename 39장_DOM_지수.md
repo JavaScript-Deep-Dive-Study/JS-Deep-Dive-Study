@@ -4,7 +4,7 @@
   <br><img src="./images/chap39-1.png" alt="39-1" width="500px">
   <br><img src="./images/chap39-2.png" alt="39-2" width="500px">
 
-  왼쪽 HTML 문서를 파싱해서 오른쪽 DOM을 생성
+  위쪽 HTML 문서를 파싱해서 아래쪽 DOM을 생성
 
 - 브라우저의 렌더링 엔진은 HTML 문서를 파싱해서 브라우저가 이해할 수 있는 자료구조인 DOM을 생성
 - DOM(Document Object Model)은 HTML 문서의 계층적 구조/정보를 표현, 이를 제어하는 API → 프로퍼티와 메서드를 제공하는 트리 자료구조
